@@ -1,0 +1,90 @@
+<ScrollView xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    tools:context="com.example.biodun.mdb.Fragments.OverviewFragment">
+
+       <LinearLayout
+           android:orientation="vertical"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+               <ImageView
+                   android:layout_marginTop="16dp"
+                   android:id="@+id/poster"
+                   android:src="@mipmap/ic_launcher"
+                   android:layout_width="100dp"
+                   android:layout_height="120dp" />
+               <TextView
+                   android:layout_marginTop="16dp"
+                   android:id="@+id/name"
+                   android:textStyle="bold"
+                   android:layout_toRightOf="@id/poster"
+                   android:textColor="@color/colorPrimary"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content" />
+               <LinearLayout
+                   android:id="@+id/linear"
+                   android:layout_toRightOf="@id/poster"
+                   android:layout_below="@id/name"
+                   android:layout_marginTop="7dp"
+                   android:orientation="horizontal"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content">
+                      <TextView
+
+                          android:textSize="40sp"
+                          android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                          android:textColor="@color/ratingColor"
+                          android:id="@+id/textRating"
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content" />
+                      <TextView
+                          android:textSize="10sp"
+                          android:textStyle="bold"
+                          android:textColor="@color/colorPrimary"
+                          android:text="@string/ratingHalf"
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          />
+
+               </LinearLayout>
+               <TextView
+                   android:layout_marginTop="15dp"
+                   android:layout_toRightOf="@id/poster"
+                   android:layout_below="@id/linear"
+                   android:textColor="@color/colorPrimary"
+                   android:layout_marginLeft="5dp"
+                   android:id="@+id/date"
+                   android:layout_width="136dp"
+                   android:layout_height="wrap_content" />
+        </RelativeLayout>
+
+                     <TextView
+                         android:textAppearance="?android:textAppearanceSmall"
+                         android:layout_marginTop="10dp"
+                         android:id="@+id/overText"
+                         android:layout_marginRight="@dimen/activity_horizontal_margin"
+                         android:layout_marginLeft="@dimen/activity_horizontal_margin"
+
+                         android:textAlignment="center"
+                         android:layout_width="match_parent"
+                         android:layout_height="wrap_content" />
+
+
+
+
+
+
+
+
+
+
+
+       </LinearLayout>
+
+
+</ScrollView>

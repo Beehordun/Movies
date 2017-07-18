@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <android.support.design.widget.CoordinatorLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/activity_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+
+
+    <android.support.design.widget.AppBarLayout
+            android:id="@+id/appBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+            <android.support.design.widget.CollapsingToolbarLayout
+                android:id="@+id/collapse_toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:expandedTitleMarginEnd="64dp"
+                app:expandedTitleMarginStart="48dp"
+                app:layout_scrollFlags="scroll|exitUntilCollapsed">
+
+
+
+
+                    <ImageView
+                        android:layout_gravity="center"
+                        android:src="@drawable/house"
+                        android:layout_width="wrap_content"
+                        android:layout_height="200dp"
+                        android:scaleType="centerInside"
+                        android:id="@+id/imageName"
+                        app:layout_collapseMode="parallax"/>
+                    <ImageButton
+                        android:layout_gravity="bottom|right"
+                        android:layout_marginLeft="20dp"
+                        android:id="@+id/favorite"
+                        android:layout_alignParentBottom="true"
+                        android:layout_toRightOf="@id/imageName"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/favorite"
+                        android:background="@color/imageButtonColor"
+                        android:onClick="onAddFavorite"/>
+
+
+
+
+
+                    <android.support.v7.widget.Toolbar
+                        android:titleTextColor="@color/textColor"
+                        android:id="@+id/toolbar"
+                        android:layout_width="match_parent"
+                        android:layout_height="?attr/actionBarSize"
+                        app:layout_collapseMode="parallax"
+
+
+                        app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+
+
+
+
+
+            </android.support.design.widget.CollapsingToolbarLayout>
+
+
+
+
+        <android.support.design.widget.TabLayout
+            android:background="@color/black"
+            app:layout_anchor="@+id/appBar"
+            app:layout_anchorGravity="bottom"
+            android:layout_gravity="bottom"
+            android:id="@+id/tabs"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            app:tabMode="fixed"
+            app:tabTextColor="@color/white"
+            app:tabSelectedTextColor="@color/white"
+            app:layout_scrollFlags="scroll|enterAlways"
+            app:tabGravity="fill"/>
+
+
+
+        </android.support.design.widget.AppBarLayout>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"  />
+
+
+
+
+
+    </android.support.design.widget.CoordinatorLayout>
+
+
+
+
+

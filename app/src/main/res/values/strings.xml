@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">MDb</string>
+    <string name="settings">Settings</string>
+    <string name="topRated"> Top rated movies</string>
+    <string name="popularity"> Popular</string>
+    <string name="favorite"> Favorites </string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="offReview">You are offline.Reviews not available</string>
+    <string name="offTrailer"> You are offline.Trailers not available</string>
+    <string name="offMovie">Oops! No Internet Connection</string>
+    <string name="ratingHalf">/10</string>
+</resources>
