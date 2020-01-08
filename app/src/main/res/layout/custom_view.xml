@@ -8,10 +8,11 @@
     android:layout_gravity="center"
     android:clickable="true"
     android:layout_margin="0.5dp"
-    android:foreground="?attr/selectableItemBackground">
+    android:foreground="?attr/selectableItemBackground"
+    android:focusable="true">
 
     <ImageView
-        android:id="@+id/mainImageView"
+        android:id="@+id/movieImage"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:scaleType="centerCrop"/>
@@ -27,7 +28,7 @@
 
     <TextView
         tools:text="Boss Baby"
-        android:id="@+id/mainTextView"
+        android:id="@+id/movieTitle"
         android:layout_width="match_parent"
         android:layout_height="48dp"
         android:layout_gravity="bottom"

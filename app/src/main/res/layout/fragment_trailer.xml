@@ -1,23 +1,23 @@
-<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.biodun.mdb.Fragments.TrailerFragment">
+    tools:context="com.example.biodun.mdb.features.movieDetail.TrailerFragment">
 
     <!-- TODO: Update blank fragment layout -->
 
-    <android.support.design.widget.CoordinatorLayout
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
-        <android.support.v7.widget.RecyclerView
+        <androidx.recyclerview.widget.RecyclerView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:scrollbars="vertical"
-            android:id="@+id/rvTrailer">
+            android:id="@+id/trailerRecyclerView">
 
-        </android.support.v7.widget.RecyclerView>
-        <android.support.design.widget.FloatingActionButton
+        </androidx.recyclerview.widget.RecyclerView>
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
             android:id="@+id/fab"
             android:src="@drawable/fabshare"
             android:layout_marginRight="@dimen/activity_horizontal_margin"
@@ -27,14 +27,14 @@
             android:layout_height="wrap_content" />
         <TextView
             android:visibility="invisible"
-            android:id="@+id/offTrailer"
+            android:id="@+id/trailerNoInternetText"
             android:layout_gravity="center"
             android:text="@string/offTrailer"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
 
 
-    </android.support.design.widget.CoordinatorLayout>
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
 
 
-</android.support.design.widget.CoordinatorLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

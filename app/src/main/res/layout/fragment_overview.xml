@@ -2,7 +2,7 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_height="match_parent"
     android:layout_width="match_parent"
-    tools:context="com.example.biodun.mdb.Fragments.OverviewFragment">
+    tools:context="com.example.biodun.mdb.features.movieDetail.OverviewFragment">
 
        <LinearLayout
            android:orientation="vertical"
@@ -20,7 +20,7 @@
                    android:layout_height="120dp" />
                <TextView
                    android:layout_marginTop="16dp"
-                   android:id="@+id/name"
+                   android:id="@+id/overview_name"
                    android:textStyle="bold"
                    android:layout_toRightOf="@id/poster"
                    android:textColor="@color/colorPrimary"
@@ -29,7 +29,7 @@
                <LinearLayout
                    android:id="@+id/linear"
                    android:layout_toRightOf="@id/poster"
-                   android:layout_below="@id/name"
+                   android:layout_below="@id/overview_name"
                    android:layout_marginTop="7dp"
                    android:orientation="horizontal"
                    android:layout_width="match_parent"
@@ -58,7 +58,7 @@
                    android:layout_below="@id/linear"
                    android:textColor="@color/colorPrimary"
                    android:layout_marginLeft="5dp"
-                   android:id="@+id/date"
+                   android:id="@+id/overview_date"
                    android:layout_width="136dp"
                    android:layout_height="wrap_content" />
         </RelativeLayout>

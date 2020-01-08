@@ -4,11 +4,13 @@
     <string name="topRated"> Top rated movies</string>
     <string name="popularity"> Popular</string>
     <string name="favorite"> Favorites </string>
-
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="overview"> Overview </string>
+    <string name="trailer"> Trailer </string>
+    <string name="review"> Review </string>
     <string name="offReview">You are offline.Reviews not available</string>
     <string name="offTrailer"> You are offline.Trailers not available</string>
     <string name="offMovie">Oops! No Internet Connection</string>
     <string name="ratingHalf">/10</string>
+    <string name="movie_deleted_message"> Movie has been removed</string>
+    <string name="movie_inserted_message"> Movie has been inserted</string>
 </resources>

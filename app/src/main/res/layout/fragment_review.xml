@@ -2,21 +2,20 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.biodun.mdb.Fragments.ReviewFragment">
+    tools:context="com.example.biodun.mdb.features.movieDetail.ReviewFragment">
 
-    <!-- TODO: Update blank fragment layout -->
 
-    <android.support.v7.widget.RecyclerView
+    <androidx.recyclerview.widget.RecyclerView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:scrollbars="vertical"
-        android:id="@+id/rvReview">
+        android:id="@+id/reviewRecyclerView">
 
 
-    </android.support.v7.widget.RecyclerView>
+    </androidx.recyclerview.widget.RecyclerView>
     <TextView
         android:visibility="invisible"
-        android:id="@+id/offReview"
+        android:id="@+id/noInternetText"
         android:layout_centerInParent="true"
         android:text="@string/offReview"
         android:layout_width="wrap_content"
