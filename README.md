@@ -3,7 +3,7 @@ This app shows the overview, trailers and reviews of movies from the [Movie DB A
 
 ![Home](home.png)
 ![Overview](overview.png)
-![Trailers](trailer.png)
+![Trailers](trailers.png)
 ![Review](review.png)
 
 
