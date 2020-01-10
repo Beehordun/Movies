@@ -13,6 +13,6 @@ This app uses the **MVVM** Architectural pattern.
 # Libraries 
 
 - Dagger2
-- Jetpack libraries(Room, Livedata)
+- Jetpack libraries(Room, Livedata, and ViewModel)
 - Coroutines
 
