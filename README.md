@@ -1,7 +1,10 @@
 # Movies
-This app shows movies and their trailers by fetching data from the [Movie DB Api](http://themoviedb.org/)
+This app shows the overview, trailers and reviews of movies from the [Movie DB Api](http://themoviedb.org/)
 
-![GraphQLAndroid](GraphQLAndroid.png)
+![Home](Home.png)
+![Overview](Overview.png)
+![Trailers](Trailer.png)
+![Review](Review.png)
 
 
 # Architecture
